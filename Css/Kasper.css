@@ -666,6 +666,7 @@ header nav .form i{
   background-color: var(--main-color);
   height: 100%;
   position: relative;
+  transition: width 1s linear;
 }
 .skills .skill .prog-holder .prog span::before{
   content:attr(data-progress);
